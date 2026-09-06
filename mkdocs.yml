@@ -1,0 +1,29 @@
+site_name: Anna Rossi
+site_description: Bioinformatics & Data Science Portfolio
+site_url: https://annarossi01.github.io
+
+theme: 
+  name: material
+  palette:
+    primary: teal
+  features: 
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+nav: 
+  - Home: index.md
+  - Skills: skills.md
+  - Experience: experience.md
+  - Project: 
+    - NGS Variant Calling: projects/ngs-variant-calling.md
+    - RNA-seq Analysis: projects/rnaseq-analysis.md
+    - Data Pipeline: projects/data-pipeline.md
+    - ML on Genomic Data: projects/ml-genomics.md
+    - Power BI Dashboard: projects/powerbi-dashboard.md
+  - CV: cv.md
+
+markdown_extensions: 
+  - admonition
+  - codehilite
+  - toc
