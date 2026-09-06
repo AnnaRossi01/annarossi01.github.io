@@ -15,6 +15,7 @@ nav:
   - Home: index.md
   - Skills: skills.md
   - Experience: experience.md
+  - Education: education.md
   - Project: 
     - NGS Variant Calling: projects/ngs-variant-calling.md
     - RNA-seq Analysis: projects/rnaseq-analysis.md
