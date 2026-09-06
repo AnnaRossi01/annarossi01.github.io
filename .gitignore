@@ -1,0 +1,15 @@
+# Ambiente virtuale Python
+venv/
+
+# File compilati Python
+__pycache__/
+*.pyc
+
+# Output di build di MkDocs
+site/
+
+# File di sistema
+.DS_Store
+
+# Impostazioni locali VSCode (opzionale, personale)
+.vscode/
